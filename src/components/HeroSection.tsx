@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Shield, TrendingUp, Users } from "lucide-react";
-import heroImage from "@/assets/hero-investment.png";
+import heroImage from "@/assets/hero-investment-optimized.png";
 
 export const HeroSection = () => {
   return (
@@ -68,6 +68,8 @@ export const HeroSection = () => {
             <img 
               src={heroImage} 
               alt="Investment Growth Analytics" 
+              width="1024"
+              height="576"
               className="relative rounded-2xl shadow-2xl w-full"
             />
           </div>
